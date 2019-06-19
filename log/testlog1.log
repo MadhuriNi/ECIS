@@ -1,0 +1,131 @@
+2018-08-08 14:18:19,223 [main] INFO mainclass - Enetring the login details
+2018-08-08 14:18:28,344 [main] INFO mainclass - Entering the account number
+2018-08-08 14:18:30,154 [main] INFO mainclass - Statement created
+2018-08-08 14:18:30,552 [main] INFO mainclass - Running for Account Number -------------------------------- 287362226
+2018-08-08 14:18:30,552 [main] INFO mainclass - The test id is  L3:
+2018-08-08 14:18:30,552 [main] INFO mainclass - The db_name is LOCAL_FILE_DATA:
+2018-08-08 14:18:43,838 [main] INFO custInfoPage - -----------Inside the cust info page-------------
+2018-08-08 14:18:48,909 [main] INFO custInfoPage - inside else block for customer status for length 1
+2018-08-08 14:18:48,910 [main] INFO custInfoPage - Customer Status is Active
+2018-08-08 14:18:48,947 [main] INFO custInfoPage - Customer Name is PEG/TEST/NOSHIP/NO46
+2018-08-08 14:18:48,979 [main] INFO custInfoPage - Shipper Address Line 1 FEDEX--NO SHIPPING--
+2018-08-08 14:18:49,010 [main] INFO custInfoPage - Shipper Address Line 2 3640 HACKS CROSS RD
+2018-08-08 14:18:49,057 [main] INFO custInfoPage - Shipper Address Line 3 MEMPHIS, TN, 381258800
+2018-08-08 14:18:49,088 [main] INFO custInfoPage - Load Date is 02/10/2004
+2018-08-08 14:18:49,119 [main] INFO custInfoPage - Station is 870
+2018-08-08 14:18:49,166 [main] INFO custInfoPage - Language is EN-English
+2018-08-08 14:18:49,229 [main] INFO custInfoPage - Bill to Account Number 
+2018-08-08 14:18:49,260 [main] INFO custInfoPage - EDI Account Number 
+2018-08-08 14:18:49,291 [main] INFO custInfoPage - Bill Name is PRICING ADMIN TEST/134
+2018-08-08 14:18:49,323 [main] INFO custInfoPage - Bill Address 1 is 
+2018-08-08 14:18:49,354 [main] INFO custInfoPage - Bill Address 2 is 3640 HACKS CROSS RD
+2018-08-08 14:18:49,385 [main] INFO custInfoPage - Bill Address 3 is MEMPHIS, TN, 381258800
+2018-08-08 14:18:49,416 [main] INFO custInfoPage - Shipper Phone is By.id: myForm:custsum:phoneNum
+2018-08-08 14:18:49,448 [main] INFO custInfoPage - Credit Rating is NEW
+2018-08-08 14:18:49,463 [main] INFO custInfoPage - Credit Limit is 000003001
+2018-08-08 14:18:49,510 [main] INFO custInfoPage - Currency is US DOLLARS
+2018-08-08 14:18:49,541 [main] INFO custInfoPage - Last Pay is 
+2018-08-08 14:18:49,573 [main] INFO custInfoPage - Credit Card is 
+2018-08-08 14:18:49,619 [main] INFO custInfoPage - Intl Mode is I
+2018-08-08 14:18:49,651 [main] INFO custInfoPage - Cash Reason Not on Cash
+2018-08-08 14:18:49,682 [main] INFO custInfoPage - Cash Date is 
+2018-08-08 14:18:49,713 [main] INFO custInfoPage - Duty cycle is 99-Daily
+2018-08-08 14:18:49,744 [main] INFO custInfoPage - EBPP is NO
+2018-08-08 14:18:49,776 [main] INFO custInfoPage - Intl Cycle is 46-Friday
+2018-08-08 14:18:49,776 [main] INFO custInfoPage - Intl Cycle is Friday
+2018-08-08 14:18:49,807 [main] INFO custInfoPage - The flt nbr is 
+2018-08-08 14:18:49,838 [main] INFO custInfoPage - The ground is 
+2018-08-08 14:18:49,869 [main] INFO custInfoPage - The break info is 
+2018-08-08 14:18:49,913 [main] INFO custInfoPage - The cust ref is 
+2018-08-08 14:18:49,932 [main] INFO custInfoPage - The pws auto is N
+2018-08-08 14:18:49,947 [main] INFO custInfoPage - The first ship is 
+2018-08-08 14:18:49,979 [main] INFO custInfoPage - The last ship is 
+2018-08-08 14:18:50,025 [main] INFO custInfoPage - The nat account is 34130 002
+2018-08-08 14:18:50,041 [main] INFO custInfoPage - The geo is 
+2018-08-08 14:18:50,072 [main] INFO custInfoPage - The ss is 
+2018-08-08 14:18:50,119 [main] INFO custInfoPage - Billing Notes is Billed weekly on Wednesday, using paper, using standard sort, w/o comp-gen ABs
+2018-08-08 14:18:50,135 [main] INFO custInfoPage - Correspondance is YES
+2018-08-08 14:18:50,166 [main] INFO custInfoPage - Forward Broker is 
+2018-08-08 14:18:50,166 [main] INFO mainclass - The query for CUSTINFO is insert into E_L3_CHEERS_CUSTINFO (TEST_ID, DBNAME, ACCTNBR, STATUS, SHIPNAME, SHIPADR1, SHIPADR2,  STATION,BILLTO, EDI_NBR, BILLNAME, BILLADR1, BILLADR2, BILLADR3, LOADDATE,LANG, SHIPHONE, CREDITRATING, CREDITLIMIT, CURRENCY, LASTPAY, CCTYPE, INTLMODE, CASHRSN, CASHDT, DTCYCLE, EBPP, INTLCYCLE, FTL_NBR,Ground, BRKINFO, CUSTREF, PWSAUTO,FIRSTSHP,LASTSHIP,NATLACCT,GEOAGGR,SSAGGR,SHIPADR3,CUSTOMERBILLINGCYCLE,CORRESP,FWDBRKR) values ('L3:', 'LOCAL_FILE_DATA:', '287362226', 'Active', 'PEG/TEST/NOSHIP/NO46', 'FEDEX--NO SHIPPING--', '3640 HACKS CROSS RD', '870', '', '', 'PRICING ADMIN TEST/134', '', '3640 HACKS CROSS RD', 'MEMPHIS, TN, 381258800', '02/10/2004', 'EN-English', '1-901-434-5000','NEW','000003001','US DOLLARS','','','I','Not on Cash','','99-Daily','NO','Friday','','','','','N','','','34130 002','','','MEMPHIS, TN, 381258800','Billed weekly on Wednesday, using paper, using standard sort, w/o comp-gen ABs','YES','')
+2018-08-08 14:18:50,166 [main] INFO shipprofPage - -----------Inside the ship prof page-------------
+2018-08-08 14:18:53,185 [main] INFO shipprofPage - Alpha ID is NQAA
+2018-08-08 14:18:53,195 [main] INFO shipprofPage - Agent is  
+2018-08-08 14:18:53,212 [main] INFO shipprofPage - Customer name is null
+2018-08-08 14:18:53,228 [main] INFO shipprofPage - Status is 01
+2018-08-08 14:18:53,243 [main] INFO shipprofPage - Station is 
+2018-08-08 14:18:53,268 [main] INFO shipprofPage - Country is  TN
+2018-08-08 14:18:54,902 [main] INFO shipprofPage - -----------going to home page-----------------
+2018-08-08 14:18:55,288 [main] INFO shipprofPage - ------------At banking and Collection page--------------
+2018-08-08 14:18:58,293 [main] INFO shipprofPage - Inside the banking and collections page
+2018-08-08 14:18:58,483 [main] INFO shipprofPage - Credit typeeeeee Select
+2018-08-08 14:18:58,483 [main] INFO shipprofPage - inside if
+2018-08-08 14:18:58,483 [main] INFO shipprofPage - Credit Type is 
+2018-08-08 14:18:58,515 [main] INFO shipprofPage - Credit Number is 
+2018-08-08 14:18:58,562 [main] INFO shipprofPage - Credit Expiry is 
+2018-08-08 14:18:58,562 [main] INFO mainclass - The query for SHIPPROF is insert into E_L3_CHEERS_SHIPPROF (TEST_ID, DBNAME, ACCTNBR, ALPHA_ID, AGENT, NAME, STATUS, STATION, CNTRY, CREDT_CD_TYPE, CREDT_CD_NBR, CREDT_CD_EXP_DT ) values ('L3:', 'LOCAL_FILE_DATA:', '287362226', 'NQAA', '', 'null', '01', '', 'TN', '', '', '')
+2018-08-08 14:18:58,562 [main] INFO custservPage - -----------Inside the cust serv page-------------
+2018-08-08 14:18:59,244 [main] INFO custservPage - -----------Clicking home page-----------------
+2018-08-08 14:18:59,584 [main] INFO custservPage - ------------At Service and Marketing page--------------
+2018-08-08 14:19:05,634 [main] INFO custservPage - OvernightFrieght service status is N
+2018-08-08 14:19:05,661 [main] INFO custservPage - International Priority Service Y
+2018-08-08 14:19:05,693 [main] INFO custservPage - Document prep service is N
+2018-08-08 14:19:05,724 [main] INFO custservPage - International Freight service is N
+2018-08-08 14:19:05,739 [main] INFO custservPage - Collect receipt is N
+2018-08-08 14:19:05,786 [main] INFO custservPage - Perferred Customer is false
+2018-08-08 14:19:05,890 [main] INFO custservPage - Perferred Customer is N
+2018-08-08 14:19:05,912 [main] INFO custservPage - Cut Flower is N
+2018-08-08 14:19:05,934 [main] INFO custservPage - Ground Hazmat is N
+2018-08-08 14:19:05,965 [main] INFO custservPage - Correspondance is Y
+2018-08-08 14:19:05,980 [main] INFO custservPage - Allow Reroute is Y
+2018-08-08 14:19:05,996 [main] INFO custservPage - Signature required is Y
+2018-08-08 14:19:06,027 [main] INFO custservPage - Notify is N
+2018-08-08 14:19:06,059 [main] INFO custservPage - Partial Payment is Y
+2018-08-08 14:19:06,074 [main] INFO custservPage - Online Eligibility is Y
+2018-08-08 14:19:06,106 [main] INFO custservPage - Supplies NoCut is N
+2018-08-08 14:19:06,137 [main] INFO custservPage - Emerge is N
+2018-08-08 14:19:06,152 [main] INFO custservPage - Gratuity is Y
+2018-08-08 14:19:06,168 [main] INFO custservPage - EDRW is N
+2018-08-08 14:19:06,168 [main] INFO custservPage - National Review is 
+2018-08-08 14:19:06,324 [main] INFO custservPage - International Shipper is N
+2018-08-08 14:19:06,356 [main] INFO custservPage - Signature required is N
+2018-08-08 14:19:06,483 [main] INFO custservPage - FEC  is N
+2018-08-08 14:19:06,559 [main] INFO custservPage - MMA is N
+2018-08-08 14:19:06,591 [main] INFO custservPage - Regular Stop is N
+2018-08-08 14:19:06,660 [main] INFO custservPage - Wright Off is 1
+2018-08-08 14:19:06,689 [main] INFO custservPage - Trans Smart is N
+2018-08-08 14:19:06,705 [main] INFO custservPage - Meter is N
+2018-08-08 14:19:06,736 [main] INFO custservPage - Insight is N
+2018-08-08 14:19:06,767 [main] INFO custservPage - Sign On is N
+2018-08-08 14:19:06,783 [main] INFO custservPage - DVX is N
+2018-08-08 14:19:06,814 [main] INFO custservPage - Power of Attorney is N
+2018-08-08 14:19:06,830 [main] INFO custservPage - POA ADT is false
+2018-08-08 14:19:06,845 [main] INFO custservPage - GAA is N
+2018-08-08 14:19:06,895 [main] INFO custservPage - Archive is false
+2018-08-08 14:19:06,916 [main] INFO custservPage - Supplies is N
+2018-08-08 14:19:07,008 [main] INFO custservPage - Doc Exception is 0
+2018-08-08 14:19:07,086 [main] INFO custservPage - Selected MAIS isssssssssssssss ----------------------00-Does not Receive
+2018-08-08 14:19:07,148 [main] INFO custservPage - MAIS is 0
+2018-08-08 14:19:07,180 [main] INFO custservPage - IDF Eligibility required is N
+2018-08-08 14:19:07,195 [main] INFO custservPage - Express is N
+2018-08-08 14:19:07,226 [main] INFO custservPage - Audit is false
+2018-08-08 14:19:07,258 [main] INFO custservPage - Broker is 
+2018-08-08 14:19:07,277 [main] INFO custservPage - MPS is false
+2018-08-08 14:19:07,313 [main] INFO custservPage - NRI is N
+2018-08-08 14:19:07,344 [main] INFO custservPage - hva is 050
+2018-08-08 14:19:07,442 [main] INFO custservPage - selected hva is K
+2018-08-08 14:19:07,442 [main] INFO custservPage - HVA is 050K
+2018-08-08 14:19:07,474 [main] INFO custservPage - Ground MPS is false
+2018-08-08 14:19:07,489 [main] INFO custservPage - Marketing is false
+2018-08-08 14:19:07,521 [main] INFO custservPage - Forwarder Broker is false
+2018-08-08 14:19:07,630 [main] INFO custservPage - Archive Option is S
+2018-08-08 14:19:07,630 [main] INFO custservPage - Current Date is 2018-08-08
+2018-08-08 14:19:07,630 [main] INFO custservPage - Current Time is 14:19:7
+2018-08-08 14:19:07,630 [main] INFO mainclass - The query for CUSTSERV is insert into E_L3_CHEERS_CUSTSERV (OVRNITEFRTSVC,IPDIED,DOCPREPSVC,INTLFRTSVC,COLLECTRECPT,PREFCUST,DANGEROUSGOODS,CUTFLOWERS,CORRESPONDENCE,ALLOWREROUTE,SIGNATUREREQ,NOTIFYSHPMTDLAY,PARTIALPYMT,ONLINEELIG,SUPPLIESNOCUT,EMERGE,GRATUITY,EDRWPOD,NATLREVIEW,INTLSHIPPER,SHIPPERXPORTDCLR,FECCARD,MMA,REGULARSTOP,WRIGHTOFFIND,TRANSSMART,METERZONE,INSIGHT,SIGNONFILE,GROUNDHAZMAT,DVX,POWROFATTY,POADT,GAA,SUPPLIESELIG,DOCEXCEPTIONIND,MAIS,IDFELIGIBILITY,EXPRESSPLAN,AUDITFIRM,BROKER,EXPRESSMPS,NRIBI,HVA,GROUNDMPS,MARKETING,FOWARDERBROKER,ARCHIVEOPTION,ACCTNBR,DATEFLD,TIMEFLD) values ('N','Y','N','N','N','N','N','N','Y','Y','Y','N','Y','Y','N','N','Y','N','','N','N','N','N','N','1','N','N','N','N','N','N','N','false','N','N','0','0','N','N','false','','false','N','050K','false','false','false','S','287362226','2018-08-08','14:19:7')
+2018-08-08 14:19:07,630 [main] INFO custInfoPage - -----------Inside the bill cust page-------------
+2018-08-08 14:19:08,913 [main] INFO custInfoPage - ------------Clicking home page--------------
+2018-08-08 14:19:09,233 [main] INFO custInfoPage - ------------At Regulatory info page--------------
+2018-08-08 14:19:17,317 [main] INFO custInfoPage - the vatno is -- 
+2018-08-08 14:19:17,323 [main] INFO custInfoPage - data inserted in BILLCUST table
+2018-08-08 14:19:18,174 [main] INFO custInfoPage - Going back to Account summary Page
+2018-08-08 14:19:21,198 [main] INFO mainclass - The query for BILLCUST is insert into E_L3_CHEERS_BILLCUST (TEST_ID, DBNAME, ACCTNBR, VATNO) values ('L3:', 'LOCAL_FILE_DATA:', '287362226',  '')
+2018-08-08 14:19:21,280 [main] INFO mainclass - Finall insert statement

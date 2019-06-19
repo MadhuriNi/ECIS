@@ -1,0 +1,21 @@
+Browser=chrome
+
+firefoxDriver=webdriver.gecko.driver
+firefoxPath=C:\\geckodriver-v0.18.0-win64\\geckodriver.exe
+
+chromeDriver=webdriver.chrome.driver
+chromePath=C:\\chromedriver_win32\\chromedriver.exe
+
+URL=https://testsso.secure.fedex.com/ecisdevt
+
+userid=804229
+password=804229
+
+RSC_CR3_DB  = jdbc:oracle:thin:@ldap://oid.inf.fedex.com:3060/GTM_PROD2_SVC1_L3,cn=OracleContext,dc=ute,dc=fedex,dc=com
+RSC_CR3_UID = RSC_CR3
+RSC_CR3_PWD = fT6xEFj9wcTtdogXlY87RSCCR3
+
+level=3
+Level=3
+
+
